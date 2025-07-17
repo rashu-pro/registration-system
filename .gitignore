@@ -1,0 +1,63 @@
+# ----------------
+# OS generated files
+# ----------------
+.DS_Store
+Thumbs.db
+
+# ----------------
+# PHP
+# ----------------
+*.log
+*.cache
+*.tmp
+*.bak
+*.swp
+*.swo
+*.zip
+*.tar.gz
+*.tar
+
+# Composer dependencies
+/vendor/
+/composer.lock
+
+# Laravel specific (if using Laravel)
+/.env
+.env.*
+/storage/*.key
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/bootstrap/cache/*
+
+# Symfony specific
+/var/
+.env
+.env.local
+.env.*.local
+
+# WordPress specific (if applicable)
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+
+# PHPUnit
+.phpunit.result.cache
+phpunit.xml
+phpunit.xml.dist
+
+# ----------------
+# PhpStorm
+# ----------------
+.idea/
+*.iml
+
+# ----------------
+# Node & Frontend (if applicable)
+# ----------------
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
